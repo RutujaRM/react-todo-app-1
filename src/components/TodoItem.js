@@ -77,7 +77,7 @@ function TodoItem({ todo }) {
             <MdDelete />
           </div>
           <div
-            className={styles.icon}
+            className={styles.writeicon}
             onClick={() => handleUpdate()}
             onKeyDown={() => handleUpdate()}
             tabIndex={0}
